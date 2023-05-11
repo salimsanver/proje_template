@@ -2,7 +2,7 @@
    <div>
       
      <carousel class="px-28 max-sm:px-4 " :autoplay="true" :nav="false" :margin="20" :loop="true"
-         :responsive="{ 0: { items: 2, nav: false, dots: false },  850: { items: 8, nav: false, dots: false } }">
+         :responsive="{ 0: { items: 2, nav: false, dots: false },  1536: { items: 8, nav: false, dots: false },1200:{items:5,nav:false,dots:false},950:{items:4,nav:false,dots:false},500:{items:3,nav:false,dots:false} }">
 
          <catagorycard :img="require('@/assets/img/gown.svg')" title="Gown" img2="bg-[url('@/assets/img/catagoryetek.png')]" />
          <catagorycard :img="require('@/assets/img/t-shirt.svg')" title="tops" img2="bg-[url('@/assets/img/tops.png')]" />

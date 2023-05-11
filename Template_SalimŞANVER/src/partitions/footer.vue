@@ -1,24 +1,27 @@
 <template>
-    <div class="bg-black px-28 max-sm:px-4 ">
+    <div class="bg-black px-28 max-sm:px-4  " >
 
-        <div class="   flex  py-10 w-full max-sm:flex-wrap  ">
+        <div class="   flex   2xl:gap-14 py-10 w-full max-sm:flex-wrap  flex-wrap  ">
 
             
 
-            <div class=" w-[24%]  text-gray-400 max-sm:w-full  ">
+            <div class="xl:w-[300px]  text-gray-400 max-sm:w-full  ">
                 <img class="w-32   max-sm:px-0" src="@/assets/img/footerfaskart.png" alt="">
-                <p class="mt-6 ">it is a long established fact that a reader will be distracted by the readable
+                <p class="mt-6 w-12/12    ">it is a long established fact that a reader will be distracted by the readable
                     content.</p>
 
-                <i class="fa-brands fa-facebook  mr-6 mt-4 text-3xl max-sm:text-2xl"></i>
-                <i class="fa-brands fa-google  mr-6 text-3xl max-sm:text-2xl"></i>
-                <i class="fa-brands fa-twitter mr-6 text-3xl max-sm:text-2xl"></i>
-                <i class="fa-brands fa-instagram  mr-6 text-3xl  max-sm:text-2xl "></i>
-                <i class="fa-brands fa-pinterest mr-6 text-3xl max-sm:text-2xl"></i>
+
+
+                <i class="fa-brands fa-facebook  mr-6 mt-4 text-2xl max-sm:text-2xl"></i>
+                <i class="fa-brands fa-google  mr-6 text-2xl max-sm:text-2xl"></i>
+                <i class="fa-brands fa-twitter mr-6 text-2xl max-sm:text-2xl"></i>
+                <i class="fa-brands fa-instagram  mr-6 text-2xl  max-sm:text-2xl "></i>
+                <i class="fa-brands fa-pinterest mr-6 text-2xl max-sm:text-2xl"></i>
+            
             </div>
 
 
-            <div class="w-[24%]   px-16 max-sm:w-full max-sm:px-0  max-sm:mt-8">
+            <div class="w-[200px]   max-sm:w-full max-sm:px-0  max-sm:mt-8">
                 <span class="text-white font-bold group">
                     <p class="text-lg ">About Fastkart <i
                         class="fa-solid text-white fa-chevron-down text-sm max-sm:absolute max-sm:right-6 max-sm:text-lg "></i></p>
@@ -40,7 +43,7 @@
 
 
             </div>
-            <div class="w-[20%]   px-8  max-sm:w-full  max-sm:px-0   max-sm:mt-2">
+            <div class="w-[160px]    max-sm:w-full  max-sm:px-0   max-sm:mt-2">
                 <span class="text-white font-black font-xl group">
                     <p class="text-lg "> Useful Link <i
                         class="fa-solid text-white fa-chevron-down text-sm max-sm:absolute max-sm:right-6 max-sm:text-lg "></i></p>
@@ -63,7 +66,7 @@
                 </span>
 
             </div>
-            <div class="w-[21%]   px-4  max-sm:w-full max-sm:px-0 max-sm:mt-2 ">
+            <div class="w-[160px]     max-sm:w-full max-sm:px-0 max-sm:mt-2 ">
                 <span class="text-white font-bold group">
                     <p class="text-lg">Categories <i
                         class="fa-solid text-white fa-chevron-down text-sm max-sm:absolute max-sm:right-6 max-sm:text-lg "></i></p>
@@ -82,7 +85,7 @@
                    
                 </span>
             </div>
-            <div class="w-[24%]  px-2  font-xl max-sm:w-full max-sm:px-0 max-sm:mt-2 ">
+            <div class=" xl:w-[250px]  font-xl max-sm:w-full max-sm:px-0 max-sm:mt-2 ">
                 
                 <span class="text-white font-bold group ">
                     <p class="text-lg ">Store infomation  <i
@@ -103,7 +106,7 @@
             </div>
         </div>
 
-      <div class="py-8 mt-4 text-gray-400  border-t border-gray-400 flex justify-between items-center max-sm:w-full  max-sm:flex-wrap max-sm:text-center">
+      <div class=" py-8 mt-4 text-gray-400  border-t border-gray-400 flex justify-between items-center max-sm:w-full  max-sm:flex-wrap max-sm:text-center">
             <p >2022 Copyright By Themeforest Powered By Pixelstrap</p>
             <div class="flex  gap-4 max-sm:flex-wrap max-sm:px-4">     
                 <img class="w-12 object-contain " src="@/assets/img/visa.png" alt="">

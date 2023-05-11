@@ -5,7 +5,7 @@
         </div>
      
 
-        <carousel class="px-28 max-sm:px-4 " :autoplay="true" :nav="false" :margin="10" :loop="true" :responsive="{0:{items:2,nav:false,dots:false},600:{items:5,nav:false,dots:false}}">
+        <carousel class="px-28 max-sm:px-4   " :autoplay="true" :nav="false" :margin="10" :loop="true" :responsive="{0:{items:2,nav:false,dots:false},700:{items:3,nav:false,dots:false},1100:{items:4,nav:false,dots:false},1460:{items:5,nav:false,dots:false},1570:{items:6,nav:false,dots:false}}">
 
 <card img="bg-[url('@/assets/img/topsellingitems1.jpg')]" title="Brown Khadi Jacket" newPrince="26.69"
     prince="28.56" />
@@ -26,7 +26,7 @@
             <p class=" text-2xl font-bold max-sm:w-[96] max-sm:text-xl">Top Selling Items</p>
         </div>
 
-        <carousel class="px-28 max-sm:px-4" :autoplay="true" :nav="false" :margin="10" :loop="true" :responsive="{0:{items:2,nav:false,dots:false},600:{items:5,nav:false,dots:false}}">
+        <carousel class="px-28 max-sm:px-4 " :autoplay="true" :nav="false" :margin="10" :loop="true" :responsive="{0:{items:2,nav:false,dots:false},700:{items:3,nav:false,dots:false},1100:{items:4,nav:false,dots:false},1460:{items:5,nav:false,dots:false},1570:{items:6,nav:false,dots:false}}">
 
 <card  img="bg-[url('@/assets/img/topsellingitems1.jpg')]" title="Brown Khadi Jacket" newPrince="26.69"
     prince="28.56" />

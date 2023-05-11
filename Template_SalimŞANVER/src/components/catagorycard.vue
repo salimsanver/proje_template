@@ -10,7 +10,7 @@
             <p class="font-bold ">{{ title }}</p><!--Gown -->
          </div>
          <div :class="img2"
-            class=" -mt-10    flex  items-center absolute opacity-0  invisible group-hover:opacity-100 group-hover:block group-hover:visible w-full h-36 bg-cover bg-center rounded-xl">
+            class=" -mt-10    flex  items-center absolute opacity-0  invisible group-hover:opacity-100 group-hover:block group-hover:visible w-full h-36  bg-cover bg-center rounded-xl">
          </div>
       </div>
       </div>

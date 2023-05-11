@@ -1,8 +1,8 @@
 <template>
-    <div class="px-28 max-sm:px-4 ">
+    <div class="px-28 max-sm:px-4 w-full">
        <div class=" flex justify-between items-center mt-10 gap-8 ">
-            <div class="max-sm:hidden">
-                <img class="rounded-xl -mt-8 max-sm:hidden " src="@/assets/img/productssection.jpg" alt="">
+            <div class="max-sm:hidden max-lg:hidden max-2xl:block  flex-none ">
+                <img class="rounded-xl  max-sm:hidden w-full  " src="@/assets/img/productssection.jpg" alt="">
                 <div class="relative text-center  ">
                     <p class=" -mt-44 text-2xl italic">Passion Meet</p>
                     <p class="font-bold mt-2 text-4xl text-white">PERFECTION</p>
@@ -12,13 +12,13 @@
 
             </div>
        
-                <div class="max-sm:hidden ">
+                <div class="max-sm:hidden w-3/12  max-xl:hidden">
                     <p class="border-b-4 w-28  float-left border-cyan-700 text-center pb-5  mt-11 text-xl font-bold ">Top
                         Selling
                     </p>
-                    <p class="border-b w-40 float-left border-gray-500 mt-24  "></p>
+                    <p class="border-b w-full float-left border-gray-500   "></p>
                     <div class="w-72 h-32 ">
-                        <div class="mt-28 relative">
+                        <div class="mt-28 relative ">
                             <img class="w-24 h-24 absolute mt-8 rounded-lg hover:transform-gpu"
                                 src="@/assets/img/topsellingitems1.jpg" alt="">
                             <a class="float-right mt-10 mr-1 font-bold hover:text-cyan-700 " href="">Tuffets Whole
@@ -113,11 +113,11 @@
 
 
 
-                <div class="max-sm:hidden">
+                <div class="max-sm:hidden w-3/12 max-lg:hidden">
                     <p class="border-b-4 w-28  float-left border-cyan-700 text-center pb-5  mt-11 text-xl font-bold">Top
                         Selling
                     </p>
-                    <p class="border-b w-40 float-left border-gray-500 mt-24  "></p>
+                    <p class="border-b w-full float-left border-gray-500   "></p>
                     <div class="w-72 h-32 bg-white">
                         <div class="mt-28 relative">
                             <img class="w-24 h-24 absolute mt-8 rounded-lg hover:transform-gpu"
@@ -198,11 +198,11 @@
                         </div>
                     </div>
                 </div>
-                <div class="">
+                <div class="w-3/12">
                     <p class="border-b-4 w-28  float-left border-cyan-700 text-center pb-5  mt-11 text-xl font-bold">Top
                         Selling
                     </p>
-                    <p class="border-b w-40 float-left border-gray-500 mt-24  "></p>
+                    <p class="border-b w-full float-left border-gray-500   "></p>
                     <div class="w-72 h-32 bg-white">
                         <div class="mt-28 relative">
                             <img class="w-24 h-24 absolute mt-8 rounded-lg hover:transform-gpu"
@@ -285,9 +285,9 @@
                 </div>
             
         </div>
-        <div class="  mt-14  h-36 max-sm:w-full  max-sm:text-center    ">
+        <div class="  mt-14  h-36 max-sm:w-full  max-sm:text-center   w-full ">
 
-            <img class="h-36 max-sm:w-full bg-slate-600   max-sm:rounded-md  rounded-md" src="@/assets/img/4 (1).jpg"
+            <img class="h-36 max-sm:w-full bg-slate-600   max-sm:rounded-md  rounded-md w-full" src="@/assets/img/4 (1).jpg"
                 alt="">
             <p class="flex justify-center items-center   text-white -mt-32 text-3xl font-bold max-sm:text-2xl  max-sm:px-4">
                 Get $3 Cashback! Min Order of

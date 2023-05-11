@@ -2,15 +2,15 @@
   
 
     <div  class=" bg-cyan-700    flex justify-between   px-24  h-10  max-sm:bg-cyan-700   max-sm:w-full">
-        <p class=" float-left text-sm text-white  mt-2 ml-4 max-sm:invisible max-sm:hidden"> <i class=" fas fa-map-marker"></i> 1418 Riverwood Drive, CA 96052, US
+        <p class=" float-left text-sm text-white  mt-2 ml-4 max-sm:invisible  max-xl:text-xs   max-xl:hidden" > <i class=" fas fa-map-marker"></i> 1418 Riverwood Drive, CA 96052, US
         </p>
-    <span class="  text-white  mt-2 text-sm max-sm:invisible max-sm:hidden">Welcome to Fastkart! Wrap new offers/gift every signle day on Weekends. New Coupon Code...  </span>
+    <span class="  text-white  mt-2 text-sm max-sm:invisible max-sm:hidden md:text-xs  max-lg:hidden">Welcome to Fastkart! Wrap new offers/gift every signle day on Weekends. New Coupon Code...  </span>
    <!-- <span>Something you love is now on sale! </span>-->
  
-        <div class="flex ">
+        <div class="flex w-64   ">
     
     
-        <div class="relative flex flex-col items-center center   border-r first-letter: max-sm: ml-20  ">
+        <div class="relative flex flex-col items-center center   border-r first-letter: max-sm: ml-20 w-full ">
     
         
             <button @click="showLanguage = !showLanguage ,showLanguage1= false" class="bg-cyan-700 text-white  w-full items-center justify-between   text-sm mt-2 raunded-lg trancking-wider active:border-white duration-300 font-bold px-3  max-sm:w-24">Turki <i class="fa-solid text-white fa-chevron-down px-1 "></i> </button>
@@ -24,7 +24,7 @@
     </ul> 
 
     </div>
-    <div class="relative flex flex-col   items-center    center ">
+    <div class="relative flex flex-col   items-center    center w-full ">
     <button  @click="showLanguage1 = !showLanguage1 , showLanguage = false " class="bg-cyan-700 text-white  w-full items-center justify-between   text-sm p-2 raunded-lg trancking-wider active:border-white duration-300 px-3 max-sm:w-24">USD <i class="fa-solid text-white fa-chevron-down  px-1"></i> </button>
     <ul v-show="showLanguage1 " class="text-left w-[70px] rounded-lg bg-white fixed z-50 mt-10 mr-6 ">
     <li class="px-4 py-1 hover:bg-gray-100 border-b flex"> USD</li>

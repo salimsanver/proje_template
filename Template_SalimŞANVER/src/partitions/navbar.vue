@@ -1,21 +1,25 @@
 <template>
-    <div class="opacity-100 ">
+    <div class="opacity-100   ">
         <navbarTop />
-        <nav>
-        <div   class="bg-white    px-24 pt-10 flex gap-64   max-sm:w-full  max-sm:h-16  ">
-            <img class=" w-[11%] mb-8  mt-1 ml-4  max-sm:w-40 max-sm:h-8  max-sm:-ml-12  max-sm:-mt-6 " src="@/assets/img/navbar2.png" alt="">
-            <div class="group hidden max-sm:block">
-                <button @click="openBar = !openBar"><i class="fa-solid fa-bars absolute max-sm:left-2 max-sm: text-2xl opacity-0 max-sm:opacity-100  max-sm:-mt-10"></i></button>
+        <nav class=" w-full flex justify-between">
+        <div   class="bg-white    px-24  items-center max-sm:w-full  md:flex md:justify-between max-sm:h-16    w-full ">
+            <img class=" w-[11%] mb-8  mt-6 ml-4  max-sm:w-40 max-sm:h-8  max-sm:-ml-12    " src="@/assets/img/navbar2.png" alt="">
+            <div class="group hidden max-sm:block ">
+  <!-- -mt 20 navbar bak smde-->              <button @click="openBar = !openBar"><i class="fa-solid fa-bars absolute max-sm:left-2 max-sm: text-2xl opacity-0 max-sm:opacity-100  max-sm:-mt-20
+                     "></i></button>
                 
             </div>
-           
-               <ul class="text-black w-full -ml-16 relative z-20 mb-4 flex gap-8 text-l max-sm:w-96   max-sm:absolute max-sm:left-16 max-sm:px-4 max-sm:pt-2 max-sm:mt-6  max-sm:bg-white max-sm:h-screen max-sm:right-0 max-sm:z-50 " :class="openBar == true ? 'max-sm:block' : 'max-sm:hidden'">
-               <li  @click="openBar = !openBar" class="max-sm:mt-4  max-sm:h-20 max-sm:px-4 hidden max-sm:block ">Menu <i class="fa-solid fa-xmark max-sm:absolute max-sm:right-10 max-sm:text-2xl max-sm:hover:text-red-500" ></i></li>
-                <li class=" relative group  max-sm:px-4 "><a href="#">Home</a> <i
+          
+               <ul class="text-black w-full   relative z-20 mb-4 flex gap-8 max-sm:w-full  max-sm:absolute  max-xl:hidden
+                max-sm:px-4 max-sm:pt-2 max-sm:-mt-12  max-sm:bg-white max-sm:h-screen max-sm:right-0 max-sm:z-50  justify-center" :class="openBar == true ? 'max-sm:block' : 'max-sm:hidden'">
+              
+                <li  @click="openBar = !openBar" class="max-sm:mt-4  max-sm:h-20 max-sm:px-4 hidden max-sm:block ">Menu <i class="fa-solid fa-xmark max-sm:absolute max-sm:right-10 max-sm:text-2xl max-sm:hover:text-red-500" ></i></li>
+                
+               <li class=" relative group  max-sm:px-4    "><a href="#">Home</a> <i
                         class="fa-solid text-black fa-chevron-down text-sm max-sm:absolute max-sm:right-6 max-sm:text-lg "></i>
                     <div
                         class=" opacity-0 invisible absolute left-[-40px] bg-white w-[800px] mt-2 rounded-xl hidden  group-hover:opacity-100   group-hover:block group-hover:visible   group-hover:text-blue-900 max-sm:w-80 max-sm:block">
-                        <ul class="flex gap-4 text-black   px-8 py-4  max-sm:flex-wrap ">
+                        <ul class="flex gap-4 text-black   px-8 py-4  max-sm:flex-wrap  ">
                             <li class="hover:border-b-4  duration-300      "><img class="w-[150px] mb-4 max-sm:w-28 "
                                     src="@/assets/img/1.jpg" alt=""><a class="px-6 duration-300    " href="#">Kartshop</a>
                             </li>
@@ -31,7 +35,8 @@
                     </div>
 
                 </li>
-                <li class="group max-sm:px-4 max-sm:pt-4"><a href="#">Shop</a> <i class="fa-solid text-black fa-chevron-down text-sm max-sm:pt-2 max-sm:absolute max-sm:right-10 max-sm:text-lg"></i>
+       
+                <li class="group max-sm:px-4 max-sm:pt-4 2xl:pl-0"><a href="#">Shop</a> <i class="fa-solid text-black fa-chevron-down text-sm max-sm:pt-2 max-sm:absolute max-sm:right-10 max-sm:text-lg"></i>
                     <div
                         class="opacity-0 absolute invisible bg-white  rounded-xl text-sm  pb-4 pt-4 py-4 hidden group-hover:opacity-100 group-hover:block group-hover:visible ">
                         <ul class="text-black">
@@ -71,7 +76,7 @@
 
                 <li class="group max-sm:pt-4 max-sm:px-4"><a href="#">Mega Menu</a> <i class="fa-solid text-black fa-chevron-down text-sm max-sm:absolute max-sm:right-10 max-sm:text-lg"></i>
                     <div
-                        class="opacity-0 absolute invisible -left-10 right-1 bg-white  rounded-xl text-sm  hidden group-hover:opacity-100 group-hover:block group-hover:visible bg-[url('@/assets/img/bg.png')] bg-cover h-72 w-[800px] max-sm:w-80 max-sm:absolute max-sm:left-0 max-sm:h-full">
+                        class="opacity-0 absolute invisible justify-between -ml-96 bg-white  rounded-xl text-sm  hidden group-hover:opacity-100 group-hover:block group-hover:visible bg-[url('@/assets/img/bg.png')] bg-cover h-72 w-[800px] max-sm:w-80 max-sm:absolute max-sm:left-0 max-sm:h-full">
 
 
 
@@ -189,8 +194,13 @@
                         </ul>
                     </div>
                 </li>
+            </ul>
+         
+
+
+            <div>
                 <div>
-                    <ul class="flex pl-36 gap-8 text-xl  -mt-2">
+                   <!-- -mt 20 navbar bak smde-->      <ul class="flex pl-36 gap-8 text-xl  -mt-14 md:-mt-4 ">
                         <li><i class="fa-sharp fa-regular fa-bookmark  max-sm:hidden "></i></li>
                         <li class="group"> <i class="fa-solid fa-cart-shopping max-sm:hidden"></i>
                             <ul
@@ -227,9 +237,9 @@
                                 </div>
                             </ul>
                         </li>
-                        <li class="group max-sm:hidden"> <i class="fa-regular fa-user" ></i>
+                        <li  class="group max-sm:hidden"> <i class="fa-regular fa-user" ></i>
                             <div
-                                class="-ml-32 opacity-0 absolute invisible bg-white  rounded-xl text-sm  pb-4 pt-4 py-4 hidden group-hover:opacity-100 group-hover:block group-hover:visible ">
+                                class="-ml-32 opacity-0 absolute invisible bg-white  rounded-xl text-sm  pb-4 pt-4 py-4 hidden group-hover:opacity-100 group-hover:block group-hover:visible  ">
                                 <ul class="text-black">
 
 
@@ -244,8 +254,10 @@
                         </li>
                     </ul>
                 </div>
-            </ul>
-            <li class="group max-sm:absolute  hidden max-sm:block max-sm:right-8 max-sm:text-xl max-sm:px-2 max-sm:-mt-6"> <i class="fa-regular fa-user" ></i>
+            
+        
+           
+                <li class="group max-sm:absolute  hidden max-sm:block max-sm:right-8 max-sm:text-xl max-sm:px-2 max-sm:-mt-6"> <i class="fa-regular fa-user" ></i>
                             <div
                                 class="right-0  opacity-0 absolute invisible bg-white  w-40 rounded-xl text-sm  pb-4 pt-4 py-4 hidden group-hover:opacity-100 group-hover:block group-hover:visible ">
                                 <ul class="text-black">
@@ -260,7 +272,9 @@
                                 </ul>
                             </div>
                         </li>
-
+                    </div>
+          
+                
         </div>
     </nav>
     </div>
